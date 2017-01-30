@@ -1,7 +1,7 @@
 # blue-app-otherdime 
 OtherDime : secure private key swapping application
 
-This application demonstrates a Nano S private key swapping application relying on the attestation logic, locking the code logic to the attestation. For more information, you can refer to the Medium post : 
+This application demonstrates a Nano S private key swapping application relying on the attestation logic, locking the code logic to the attestation. For more information, you can refer to the following Medium post : https://medium.com/@Ledger/attestation-redux-proving-code-execution-on-the-ledger-platform-fd11ab0f7c19#.nvuut3ubc
 
 To use this application as is, the attestation has to be set to use Ledger as Owner, setting up the attestation as follows on a Nano S  
 
