@@ -23,12 +23,5 @@ Several scripts are available for the most common actions in the py/ directory :
 
   * exchange to exchange a sealed key between a personalized dongle and a non personalized dongle, following user confirmation 
 
-This application is currently usable on Nano S developer firmware 1.2.1 - you can upgrade as follows
+This application is currently usable on Nano S firmware 1.3+
 
-```
-python -m ledgerblue.updateFirmware --url https://hsmprod.hardwarewallet.com/hsm/process --perso perso_11 --targetId 0x31100002 --firmware nanos_121/upgrade_nanos_osu_1.2.1 --firmwareKey nanos_121/upgrade_nanos_osu_1.2.1_key --apdu
-
-python -m ledgerblue.updateFirmware --url https://hsmprod.hardwarewallet.com/hsm/process --perso perso_11 --targetId 0x31100002 --firmware nanos_121/upgrade_nanos_1.2.1 --firmwareKey nanos_121/upgrade_nanos_1.2.1_key --apdu
-
-```
-    
